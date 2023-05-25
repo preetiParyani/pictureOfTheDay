@@ -17,7 +17,7 @@ function getFetch(){
         else if(data.media_type === 'video'){
           document.querySelector('iframe').src = data.url
         }
-        document.querySelector('p').innerHTML = data.explanation
+        document.querySelector('#explain').innerHTML = data.explanation
       })
       .catch(err => {
           console.log(`error ${err}`)

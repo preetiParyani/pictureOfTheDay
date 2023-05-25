@@ -6,6 +6,10 @@
 *{
   box-sizing: border-box;
 }
+body{
+  background-color: rgb(221, 160, 221);
+  color: rgb(101, 1, 101);
+}
 
 /******************************************
 /* LAYOUT
@@ -13,6 +17,12 @@
 img{
   display: block;
   margin: 0 auto;
+  width: 1000px;
+  height: 500px;
+}
+button, input{
+  background-color: rgb(67, 24, 67);
+  color: rgb(221, 160, 221);
 }
 
 
